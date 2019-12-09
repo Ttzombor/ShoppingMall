@@ -1,0 +1,21 @@
+{
+    "name": "shoppingmall",
+    "description": "PHP MVC ShoppingMall",
+    "keywords": ["php","mvc","shop","online","example"],
+    "authors": [
+        {
+            "name": "Tibor Zombor",
+            "email": "ttzombor@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "core/Support/helpers.php"
+        ],
+        "psr-4" : {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
